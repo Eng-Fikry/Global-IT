@@ -312,6 +312,11 @@ h6 {
   .navmenu>ul>li:last-child {
     padding-right: 0;
   }
+
+  .plus::after
+  {
+    content: "+";
+  }
   
 
   .navmenu a,
