@@ -212,3 +212,16 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+function sendEmail() {
+  // جلب القيم من الحقول
+  let email = "info@globalitcomp.com";
+  let subject = document.querySelector('input[name="subject"]').value;
+  let message = document.querySelector('textarea[name="message"]').value;
+
+  // توليد رابط mailto
+  let mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+  // فتح البريد الإلكتروني
+  window.location.href = mailtoLink;
+}
