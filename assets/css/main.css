@@ -248,6 +248,14 @@ h6 {
   border-radius: 50px;
   transition: 0.3s;
 }
+/* .gm
+{
+  background-image: url("../../images/gm.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+  background-repeat: repeat;
+} */
 
 .header .cta-btn:hover,
 .header .cta-btn:focus:hover {
@@ -2434,3 +2442,13 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+.pcard img {
+  max-height: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.pcard img:hover {
+  transform: scale(1.1);
+}
+
