@@ -232,7 +232,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 24px !important;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -269,7 +269,7 @@ h6 {
   }
 
   .header .logo h1 {
-    font-size: 24px;
+    font-size: 20px !important;
   }
 
   .header .cta-btn {
@@ -724,7 +724,7 @@ h6 {
 }
 
 .page-title h1 {
-  font-size: 42px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -2451,4 +2451,3 @@ section,
 .pcard img:hover {
   transform: scale(1.1);
 }
-
