@@ -2451,3 +2451,25 @@ section,
 .pcard img:hover {
   transform: scale(1.1);
 }
+.partners-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.partners-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.partners-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.pcard {
+  min-width: 100px; /* عرض ثابت لكل لوجو */
+  scroll-snap-align: start;
+}
